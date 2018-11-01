@@ -22,3 +22,69 @@
     background-color: red;
     height:60px;
 }
+
+@media only screen and (max-width: 480px) {
+    .row.blue div {
+        background-color: blue;
+        height:60px;
+    }
+    
+    .row.orange div {
+        background-color: orange;
+        height: 100px;
+    }
+    
+    .row.green div {
+        background-color: green;
+        height: 80px;
+    }
+    
+    .row.red div {
+        background-color: red;
+        height:60px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 480px) {
+    .row.blue div {
+        background-color: blue;
+        height:60px;
+    }
+    
+    .row.orange div {
+        background-color: orange;
+        height: 100px;
+    }
+    
+    .row.green div {
+        background-color: green;
+        height: 80px;
+    }
+    
+    .row.red div {
+        background-color: red;
+        height:60px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .row.blue div {
+        background-color: blue;
+        height:60px;
+    }
+    
+    .row.orange div {
+        background-color: orange;
+        height: 100px;
+    }
+    
+    .row.green div {
+        background-color: green;
+        height: 80px;
+    }
+    
+    .row.red div {
+        background-color: red;
+        height:60px;
+    }
+}
